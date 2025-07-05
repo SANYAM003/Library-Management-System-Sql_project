@@ -30,8 +30,8 @@ This project demonstrates the implementation of a Library Management System usin
 
 ### 1. Database Setup
 
-Database Creation : Created a Database named sql_project_p2
-Table Creation : Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
+- Database Creation : Created a Database named sql_project_p2
+- Table Creation : Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 
 ```sql
 Create Database "sql_project_p3"
@@ -146,10 +146,10 @@ REFERENCES issued_status(issued_id);
 ```
 
 ## 2.CRUD Operations
-Create: Inserted sample records into the books table.
-Read: Retrieved and displayed data from various tables.
-Update: Updated records in the employees table.
-Delete: Removed records from the members table as needed.
+- Create: Inserted sample records into the books table.
+- Read: Retrieved and displayed data from various tables.
+- Update: Updated records in the employees table.
+- Delete: Removed records from the members table as needed.
 
 
 **Task 1: Create a New Book Record -- "978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.')"
