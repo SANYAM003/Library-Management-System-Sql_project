@@ -34,6 +34,9 @@ This project demonstrates the implementation of a Library Management System usin
 - Database Creation : Created a Database named sql_project_p2
 - Table Creation : Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 
+  ![image](https://github.com/user-attachments/assets/3e0a56a1-dfe1-4702-9c31-4256cc95cb5a)
+
+
 ```sql
 Create Database "sql_project_p3"
 
