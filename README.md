@@ -152,7 +152,7 @@ REFERENCES issued_status(issued_id);
 - Delete: Removed records from the members table as needed.
 
 
-**Task 1: Create a New Book Record -- "978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.')"
+**Task 1: Create a New Book Record -- "978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.')" **
 
 ```sql
 INSERT INTO books(isbn, book_title, category, rental_price, status, author, publisher)
@@ -161,7 +161,7 @@ VALUES
 ```
 
 ** Task 2:  Update an Existing Member's Address
-having member_id = C101
+having member_id = C101 **
 
 ```sql
 
@@ -172,7 +172,7 @@ WHERE member_id = 'C101';
 ```
 
 ** Task 3: Delete a Record from the Issued Status Table 
-Objective: Delete the record with issued_id = 'IS121' from the issued_status table.
+Objective: Delete the record with issued_id = 'IS121' from the issued_status table. **
 
 ```sql
 
