@@ -38,7 +38,7 @@ This project demonstrates the implementation of a Library Management System usin
 
 
 ```sql
-Create Database "sql_project_p3"
+Create Database "sql_project_p2"
 
 
 -- Create table Branch
